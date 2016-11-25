@@ -1,0 +1,37 @@
+none
+
+#Game inputs, do not change them, they are respectievly left, right, up, basic attack for player 1 an then player 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Your own keyboard configs, you can find them here: http://www.pygame.org/docs/ref/key.html, they correspond one by one with the Game inputs jusy above, I DO NOT RECOMEND YOU TO CHANGE THEM FOR THE MOMENT
+#Player 1
+K_q
+K_d
+K_z
+K_SPACE
+K_a
+K_e
+K_r
+
+#Player 2
+K_LEFT
+K_RIGHT
+K_UP
+K_KP0
+K_KP1
+K_KP2
+K_KP3
+
