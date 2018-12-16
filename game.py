@@ -48,7 +48,7 @@ def start_menu():
         print('Wich OS are you using ? Windows or Unix (MAC OS, Linux): ')
 
         while True:
-            os = raw_input()
+            os = input()
             if os in existing_os:
                 break
             else:
@@ -56,7 +56,7 @@ def start_menu():
 
         print('Keyboard isn\'t configured yet, are you using QWERTY or AZERTY ? ')
         while True:
-            keyboardLayout = raw_input()
+            keyboardLayout = input()
             if keyboardLayout in existing_layouts:
                 break
             else:
@@ -147,7 +147,7 @@ def start_menu():
 
     while True:
 
-        gamemode = raw_input()
+        gamemode = input()
 
         if gamemode in existing_gamemodes:
             break
@@ -167,7 +167,7 @@ def start_menu():
 
         while True:
 
-            best_of = int(raw_input())
+            best_of = int(input())
 
             if best_of in existing_best_of:
                 break
@@ -180,21 +180,21 @@ def start_menu():
         print('Game finishes at '+str(rounds_to_win)+' wins')
 
         #Names  + Memes
-        p1Name = raw_input('Player 1 Name ? ')
+        p1Name = input('Player 1 Name ? ')
 
-        p2Name = raw_input('Player 2 Name ? ')
+        p2Name = input('Player 2 Name ? ')
 
         while True:
 
             while p1 == True:
-                p1class = raw_input('\nPlayer 1 Class ? Disponible: Warrior, Mage, Archer: ')
+                p1class = input('\nPlayer 1 Class ? Disponible: Warrior, Mage, Archer: ')
                 if p1class in existing_class:
                     p1 = False
                 else:
                     print("Class doesn't exists...")
 
             while p2 == True:
-                p2class = raw_input('\nPlayer 2 Class ? Disponible: Warrior, Mage, Archer:  ')
+                p2class = input('\nPlayer 2 Class ? Disponible: Warrior, Mage, Archer:  ')
                 if p2class in existing_class:
                     p2 = False
                 else:
