@@ -23,13 +23,14 @@ def start_menu():
     max_player_number = 16
 
     #Memes
+    """
     antoine_names = ['antoine','Antoine','Griffon','griffon','poulpy','Poulpy','patapoulpe','Patapoulpe','pata','Pata']
     simon_names = ['simon','Simon','sim0n','Sim0n']
     alexandre_names = ['deadamer','Deadamer','alexandre','Alexandre','deadamer07','Deadamer07','frouze','Frouze']
     igor_names = ['igor','Igor','igigor','Igigor','grosPD']
     antoni_names = ['polak','Polak','Antoni','antoni','Antik','antik','Antik554','antik554','antek','Antek','Anal Rupture','anal rupture','olow','Olow','cetteListeEstLonguePutainJeVaisPasTeLouper']
     darius_names = ['Darius','darius','DarkQ','darkQ','GriffinBabe','BeautifulGriffin']
-
+    """
 
     p1 = True
     p2 = True
